@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Student {
+    public static void main(String[] args) {
+        String name;
+        long reg,T,E,M,S,SS,Avg;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter Name:");
+        name=sc.nextLine();
+        System.out.print("Enter Reg num:");
+        reg=sc.nextLong();
+        System.out.print("Enter Tamil mark:");
+        T=sc.nextLong();
+        System.out.print("Enter English mark:");
+        E=sc.nextLong();
+        System.out.print("Enter Maths mark:");
+        M=sc.nextLong();
+        System.out.print("Enter Science mark:");
+        S=sc.nextLong();
+        System.out.print("Enter Social mark:");
+        SS=sc.nextLong();
+        Avg=(T+E+M+S+SS)/5;
+        System.out.println("Name:" +name);
+        System.out.println("Reg num:" +reg); 
+        System.out.println("Tamil Mark:" +T); 
+        System.out.println("English Mark:" +E); 
+        System.out.println("Maths Mark:" +M);
+        System.out.println("Science Mark:" +S);
+        System.out.println("Social Mark:" +SS);
+        System.out.println("Average Mark:" +Avg);
+    }
+}

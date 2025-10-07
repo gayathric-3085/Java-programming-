@@ -1,0 +1,27 @@
+import java.util.*;
+public class User{
+    public static void main(String args[]){
+        String name,prof,dist,st;
+        int age;
+        long ph_no;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter Name: ");
+        name=sc.nextLine();
+        System.out.print("Enter Profession: ");
+        prof=sc.nextLine();
+        System.out.print("Enter District: ");
+        dist=sc.nextLine();
+        System.out.print("Enter State: ");
+        st=sc.nextLine();
+        System.out.print("Enter Age: ");
+        age=sc.nextInt();
+        System.out.print("Enter Phone Number: ");
+        ph_no=sc.nextLong();
+        System.out.println("Name is "+name);
+        System.out.println("Age is "+age);
+        System.out.println("Profession is "+prof);
+        System.out.println("District is "+dist);
+        System.out.println("State is "+st);
+        System.out.println("Phone Number is "+ph_no);
+    }
+}
